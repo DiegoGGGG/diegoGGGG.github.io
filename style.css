@@ -1,0 +1,52 @@
+font-family: Times New Roman;
+margin: 100;
+padding: 100;
+
+h1{
+text-align: center;
+}
+h2 {
+text-align: center;
+}
+
+nav {
+background-color: #3b3b3b;
+padding: 1em;
+position:fixed;
+z-index:500;
+top:0;
+max-width:720px;
+width:100%
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin: 0 1em;
+}
+
+nav a {
+text-decoration: none;
+color: #ff5757;
+}
+
+section {
+max-width: 800px;
+margin: 0 auto;
+padding: 2em;
+}
+
+#acerca-de {
+background-color: #a3a3a3;
+}
+
+#portfolio, #contacto {
+background-color: #a3a3a3;
+}
+
